@@ -3,11 +3,17 @@ import email
 
 class IMAPCore():
 
+    def __init__(self):
+        self.imap = None
+        self.mailbox = None
+        self.emails = None
+        self.timeout = 10
+
     def _connect(self, server, port, ssl, login, password):
         if ssl:
-            self.imap = imaplib.IMAP4_SSL(server, port)
+            self.imap = imaplib.IMAP4_SSL(server, port, self.timeout)
         else:
-            self.imap = imaplib.IMAP4(server, port)
+            self.imap = imaplib.IMAP4(server, port, self.timeout)
         self.imap.login(login, password)
 
     def _connect_oauth2(self, server, port, ssl, login, oauth2_token):
