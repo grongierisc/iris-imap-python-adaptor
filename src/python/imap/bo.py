@@ -46,7 +46,6 @@ class IMAPBO(BusinessOperation,IMAPCore):
         self._search(request.criteria)
 
         # fetch emails
-        raw_emails = []
         email_messages = []
         for email_id in self.emails:
             raw_email = self._fetch(email_id)
@@ -54,6 +53,6 @@ class IMAPBO(BusinessOperation,IMAPCore):
             email_messages.append(email.message_from_bytes(raw_email))
 
         # return the response
-        return IMAPResponse(email_ids=self.emails, raw_emails=raw_emails, email_messages=email_messages)
+        return IMAPResponse(email_ids=self.emails, email_messages=email_messages)
 
 
