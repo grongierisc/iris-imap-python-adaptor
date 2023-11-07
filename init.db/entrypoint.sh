@@ -10,7 +10,7 @@ fg %1
 iop --init
 
 # load production
-iop -m /irisdev/app/src/python/reddit/settings.py
+iop -m /irisdev/app/src/python/imap/settings.py
 
 # start production
 iop --start dc.Python.Production &
