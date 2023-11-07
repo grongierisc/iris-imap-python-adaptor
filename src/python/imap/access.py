@@ -3,7 +3,7 @@ from oauth2client.file import Storage
 from oauth2client.tools import run_flow
 
 # Path to the client_secret.json file downloaded from the Cloud Console
-CLIENT_SECRET_FILE = '/Users/grongier/git/iris-imap-python-adaptor/secret/client_secret_1037817236631-hf1af1iubdue73dos0eq1hham77o0ftf.apps.googleusercontent.com.json'
+CLIENT_SECRET_FILE = './secret/client_secret_1037817236631-hf1af1iubdue73dos0eq1hham77o0ftf.apps.googleusercontent.com.json'
 
 # The OAuth 2.0 scopes to request.
 SCOPES = ['https://mail.google.com/']
@@ -23,3 +23,6 @@ credentials = run_flow(flow, storage)
 
 # The access token is a string that the client can use to authenticate
 access_token = credentials.access_token
+
+# print the access token
+print(access_token)
