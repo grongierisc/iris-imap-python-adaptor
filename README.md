@@ -20,7 +20,7 @@ login=xxx@gmail.com
 token=ya29.xxx
 ```
 
-![IRIS.IMAPBO](https://raw.githubusercontent.com/grongierisc/iris-imap-python-adaptor/master/misc/prod_config.jpg)
+![IRIS.IMAPBO](https://github.com/grongierisc/iris-imap-python-adaptor/blob/master/misc/prod_config.jpg?raw=true)
 
 You can test it with this message :
 
@@ -31,7 +31,7 @@ msg.IMAPRequest
 }
 ```
 
-![IRIS.IMAPBO](https://raw.githubusercontent.com/grongierisc/iris-imap-python-adaptor/master/misc/test_msg.jpg)
+![IRIS.IMAPBO](https://github.com/grongierisc/iris-imap-python-adaptor/blob/master/misc/test_msg.jpg?raw=true)
 
 result :
 
@@ -64,4 +64,4 @@ msg.IMAPResponse
 }
 ```
 
-![IRIS.IMAPBO](https://raw.githubusercontent.com/grongierisc/iris-imap-python-adaptor/master/misc/result.jpg)
+![IRIS.IMAPBO](https://github.com/grongierisc/iris-imap-python-adaptor/blob/master/misc/result.jpg?raw=true)
