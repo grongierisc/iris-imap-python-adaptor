@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="iris-python-interop-template.ZPM">
+  <Document name="iris-imap-python-adaptor.ZPM">
     <Module>
-      <Name>iris-python-interop-template</Name>
-      <Description>An demo package</Description>
+      <Name>iris-imap-python-adaptor</Name>
+      <Description>Imap connector with support of Oauth2</Description>
       <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <Dependencies>
