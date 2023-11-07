@@ -20,6 +20,8 @@ login=xxx@gmail.com
 token=ya29.xxx
 ```
 
+![IRIS.IMAPBO](https://raw.githubusercontent.com/grongierisc/iris-imap-python-adaptor/master/misc/prod_config.jpg)
+
 You can test it with this message :
 
 ```
@@ -28,6 +30,8 @@ msg.IMAPRequest
     "criteria": "(UNSEEN)"
 }
 ```
+
+![IRIS.IMAPBO](https://raw.githubusercontent.com/grongierisc/iris-imap-python-adaptor/master/misc/test_msg.jpg)
 
 result :
 
@@ -59,3 +63,5 @@ msg.IMAPResponse
     ]
 }
 ```
+
+![IRIS.IMAPBO](https://raw.githubusercontent.com/grongierisc/iris-imap-python-adaptor/master/misc/result.jpg)
