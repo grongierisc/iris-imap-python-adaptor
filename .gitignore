@@ -6,3 +6,4 @@ iris-main.log
 .venv
 waitISC.log
 credentials.dat
+.env
